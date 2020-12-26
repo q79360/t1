@@ -1,0 +1,122 @@
+object Form7: TForm7
+  Left = 199
+  Top = 117
+  Width = 870
+  Height = 702
+  Caption = 'Form7'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 288
+    Top = 40
+    Width = 217
+    Height = 49
+    AutoSize = False
+    Caption = #31649#29702#21592#21024#38500
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -32
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 152
+    Top = 168
+    Width = 129
+    Height = 33
+    AutoSize = False
+    Caption = #31649#29702#21592#32534#21495
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 304
+    Top = 168
+    Width = 177
+    Height = 32
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ImeName = #20013#25991'('#31616#20307') - '#26497#21697#20116#31508' 7.4 '#29256
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 536
+    Top = 168
+    Width = 121
+    Height = 41
+    Caption = #26597#35810
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object DBGrid1: TDBGrid
+    Left = 136
+    Top = 264
+    Width = 601
+    Height = 153
+    DataSource = DataSource1
+    ImeName = #20013#25991'('#31616#20307') - '#26497#21697#20116#31508' 7.4 '#29256
+    TabOrder = 2
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'MS Sans Serif'
+    TitleFont.Style = []
+  end
+  object Button2: TButton
+    Left = 208
+    Top = 496
+    Width = 121
+    Height = 57
+    Caption = #21024#38500
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 432
+    Top = 496
+    Width = 121
+    Height = 57
+    Caption = #36820#22238
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object DataSource1: TDataSource
+    DataSet = DataModule3.ADOQuery1
+    Left = 112
+    Top = 56
+  end
+end

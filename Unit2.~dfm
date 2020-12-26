@@ -1,0 +1,101 @@
+object Form2: TForm2
+  Left = 224
+  Top = 221
+  Width = 870
+  Height = 641
+  Caption = 'Form2'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 168
+    Top = 176
+    Width = 553
+    Height = 65
+    AutoSize = False
+    Caption = #27426#36814#24744#35775#38382#20179#24211#31649#29702#31995#32479
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -40
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 616
+    Top = 448
+    Width = 113
+    Height = 73
+    Caption = #36820#22238
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object MainMenu1: TMainMenu
+    Left = 144
+    Top = 72
+    object N1: TMenuItem
+      Caption = #31649#29702#21592
+      object N6: TMenuItem
+        Caption = #24405#20837
+        OnClick = N6Click
+      end
+      object N7: TMenuItem
+        Caption = #26597#35810
+        OnClick = N7Click
+      end
+      object N8: TMenuItem
+        Caption = #20462#25913
+        OnClick = N8Click
+      end
+      object N9: TMenuItem
+        Caption = #21024#38500
+        OnClick = N9Click
+      end
+    end
+    object N2: TMenuItem
+      Caption = #36135#21697
+      object N10: TMenuItem
+        Caption = #24405#20837
+        OnClick = N10Click
+      end
+      object N11: TMenuItem
+        Caption = #26597#35810
+        OnClick = N11Click
+      end
+      object N12: TMenuItem
+        Caption = #20462#25913
+        OnClick = N12Click
+      end
+      object N13: TMenuItem
+        Caption = #21024#38500
+        OnClick = N13Click
+      end
+    end
+    object N3: TMenuItem
+      Caption = #36827'/'#20986#24211
+      OnClick = N3Click
+    end
+    object N4: TMenuItem
+      Caption = #32479#35745
+      OnClick = N4Click
+    end
+    object N5: TMenuItem
+      Caption = #22791#20221
+      object N14: TMenuItem
+        Caption = #20462#25913#23494#30721
+        OnClick = N14Click
+      end
+      object N15: TMenuItem
+        Caption = #22791#20221#25968#25454
+        OnClick = N15Click
+      end
+    end
+  end
+end
